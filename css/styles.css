@@ -67,8 +67,6 @@ img{
     display: flex;
     width: 261px;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -81,6 +79,10 @@ img{
 .header-container {
     display: flex;
     align-items: center;
+}
+.header-menu-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
    
 
@@ -96,6 +98,8 @@ img{
     color: var(--primary-dark-color);
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-menu-link:hover{
     color: var(--secondary-blu-color);
@@ -253,7 +257,7 @@ max-width: 264px;
 
 .team-menu-item{
     background-color: var(--primary-white-color);
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
