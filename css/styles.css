@@ -269,8 +269,8 @@ max-width: 264px;
 
 }
 .team-item-image{
-    
-    
+    width: calc((100% - 3 * 24px) / 4);
+    min-width: 100%;   
 }
 .team-item-title {
     color: var(--primary-dark-color);
