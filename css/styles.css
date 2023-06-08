@@ -259,6 +259,7 @@ max-width: 264px;
 .team-menu-item{
     background-color: var(--primary-white-color);
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .card-team{
@@ -268,8 +269,7 @@ max-width: 264px;
 
 }
 .team-item-image{
-    width: calc((100% - 3 * 24px) / 4);
-    min-width: 100%;
+    
     
 }
 .team-item-title {
