@@ -67,6 +67,8 @@ img{
     display: flex;
     width: 261px;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -75,25 +77,19 @@ img{
     flex-grow: 1;
     gap: 76px;
 }
-.header-menu-item{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 
 .header-container {
     display: flex;
     align-items: center;
 }
-.header-contacts {
-    
-
-}
-
+   
 
 .header-menu-contacts{
     display: flex;
     align-items: center;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-menu-link {
     font-weight: 500;
@@ -128,12 +124,13 @@ img{
 }
 .hero{
     background-color: var(--primary-dark-color);
-}
-
-.container-hero{
     justify-content: center;
     padding-bottom: 188px;
     padding-top: 188px;
+}
+
+.container-hero{
+
     
 
 }
@@ -172,8 +169,19 @@ img{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.hiden-title{
-    visibility: hidden;
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .feature-menu{
@@ -204,9 +212,9 @@ max-width: 264px;
 .referral-menu{
     background-color: var(--primary-white-color);
     display: flex;
-    gap:24;
     box-sizing: border-box;
     justify-content: center;
+    gap: 24px;
 }
 .referral-title {
     color: var(--primary-dark-color);
@@ -282,13 +290,11 @@ max-width: 264px;
 
 .footer{
     background-color: var(--primary-dark-color);
-}
-
-.container-footer{
     padding-top: 100px;
     padding-bottom: 100px;
-    
 }
+
+    
 .footer-paragraph {
     font-size: 16px;
     line-height: 1.5;
@@ -310,8 +316,7 @@ max-width: 264px;
 .logo-span-footer{
     color: var(--secondary-white-color);;
 }
-
-.container-portfolio{
+.portfolio{
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -340,20 +345,23 @@ max-width: 264px;
 .portfolio-button:hover{
     color: var(--primary-white-color);
     background-color: var(--secondary-blu-color);
-    border: 1px solid transparen
+    border: 1px solid: transparent;
 }
 .portfolio-button:focus{
     color: var(--primary-white-color);
     background-color: var(--secondary-blu-color);
-    border: 1px solid transparen
+    border: 1px solid: transparent;
 }
 
+.portfolio-feture-items{
+    width: calc((100% - 48px) / 3);
+}
 .portfolio-card{
     border: 1px solid #e7e9fc;
     border-top: none;
 }
 .portfolio-feature-image{
-    max-width: 360px;
+    min-width: 360px;
 }
 
 .portfolio-menu-feature{
@@ -361,7 +369,6 @@ max-width: 264px;
     flex-wrap: wrap;
     column-gap:24px;
     row-gap: 48px;
-    padding: 32px 16px;
 
 }
 
@@ -372,8 +379,8 @@ max-width: 264px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-top: 32px;
-    margin-left: 16px;
+    padding-top: 32px;
+    padding-left: 16px;
 }
 
 .portfolio-feature-paragraph {
