@@ -52,7 +52,6 @@ img{
     letter-spacing: 0.03em;
     color: var(--primary-blu-color);
     text-transform: uppercase;
-    margin-right: 76px
 }
 
 .logo-span-header{
@@ -65,7 +64,6 @@ img{
 
 .header-menu {
     display: flex;
-    width: 261px;
     gap: 40px;
 }
 
@@ -117,6 +115,8 @@ img{
     line-height: 1.5;
     color: var(--secondary-dark-color);
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-contacts-item:hover{
     color: var(--secondary-blu-color);
@@ -132,6 +132,7 @@ img{
 }
 
 .container-hero{
+    margin: 0 auto;
 
     
 
@@ -142,8 +143,8 @@ img{
     line-height: 1.07;
     color: var(--primary-white-color);
     letter-spacing: 0.02em;
-    padding-bottom: 48px;
     max-width: 496px;
+    margin: 0 auto 48px auto;
 }
 
 .hero-button {
@@ -159,7 +160,8 @@ img{
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
-    min-width: 169px
+    min-width: 169px;
+    margin: 0 auto;
 }
 .hero-button:hover{
     background-color: var(--secondary-blu-color);
@@ -226,7 +228,6 @@ max-width: 264px;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 . .referral-item-image{
@@ -297,6 +298,7 @@ max-width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-white-color);
+    max-width: 264px;
 
 }
 .logo-footer {
