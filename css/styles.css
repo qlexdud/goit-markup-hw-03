@@ -52,6 +52,7 @@ img{
     letter-spacing: 0.03em;
     color: var(--primary-blu-color);
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-span-header{
@@ -71,7 +72,6 @@ img{
     display: flex;
     align-items: center;
     flex-grow: 1;
-    gap: 76px;
 }
 
 .header-container {
